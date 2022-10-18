@@ -1,14 +1,15 @@
 {
+{
   "name": "cypress-jenkins",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "cleanup": "rm -fr cypress/reports",
-    "cy_dashboard": "npx cypress run --record --key 9380d621-9687-41f2-b29f-65f33b4a087a"
+    "cy_dashboard": "npx cypress run --record --key 9380d621-9687-41f2-b29f-65f33b4a087a",
     "cy:report": "npx run cleanup && npx run cy_dashboard && npx run cy_report"	
   },
-  "keywords": [basha g],
+  "keywords": "Gbasha786",
   "author": "",
   "license": "ISC",
   "dependencies": {
